@@ -108,11 +108,11 @@ class Game extends Component {
           !game.started
             ? <>
                 {
-                  game.players.length >= 4
+                  game.players.length >= 2
                     ? username === game.players[0].username
                       ? <Button variant='contained' color='primary' className={classes.button} style={{ marginTop: '35px' }} onClick={start(this.state.timeoutTime)}>Start with {game.players.length} Players</Button>
                       : <Button variant='contained' color='primary' className={classes.button} style={{ marginTop: '35px' }} disabled onClick={start}>Start with {game.players.length} Players (Only the Host Can Start the Game)</Button>
-                    : <Button variant='contained' color='primary' disabled className={classes.button} style={{ marginTop: '35px' }}>Start ({game.players.length} of 4 Players)</Button>
+                    : <Button variant='contained' color='primary' disabled className={classes.button} style={{ marginTop: '35px' }}>Start ({game.players.length} of 2 Players)</Button>
                 }
 
                 {

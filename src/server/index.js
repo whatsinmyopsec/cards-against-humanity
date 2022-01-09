@@ -134,7 +134,7 @@ function removePlayer(username) {
   game.log.push(`Player ${username} disconnected.`);
 
   // If there is not enough people to join.
-  if(game.players.length < 4 && game.started) {
+  if(game.players.length < 6 && game.started) {
     console.log('Not enough players connected. Ending game.');
     io.sockets.emit('gameEndNotEnoughPlayers');
     resetGame();
