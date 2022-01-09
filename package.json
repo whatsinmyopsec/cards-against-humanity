@@ -8,7 +8,7 @@
     "dev": "fullstack-system dev",
     "build": "fullstack-system build",
     "clean": "fullstack-system clean",
-    "production": "fullstack-system production -p $PORT",
+    "production": "fullstack-system production -p 1234",
     "docs": "docsify serve ./docs"
   },
   "dependencies": {
