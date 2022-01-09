@@ -3,6 +3,9 @@
   "version": "1.6.1",
   "description": "Another Cards Against Humanity clone built in React.",
   "private": true,
+  "engines": {
+    "node": "12"
+  },
   "scripts": {
     "start": "fullstack-system dev",
     "dev": "fullstack-system dev",
