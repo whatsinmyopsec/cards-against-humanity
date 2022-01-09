@@ -1,5 +1,5 @@
 ## Play
-You can play the game at http://cards-against-humanity.surge.sh.
+
 
 ## Built With (Major Only)
 - React
